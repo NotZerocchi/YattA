@@ -1,4 +1,6 @@
 import sys
+import os
+sys.path.append("ext")
 import time
 
 opt = []
@@ -24,3 +26,6 @@ def tw(txt, sl=0.03):
 				sys.stdout.write(letters)
 				sys.stdout.flush()
 				time.sleep(sl)
+
+def cls():
+    return os.system('cls' if os.name == 'nt' else 'clear')

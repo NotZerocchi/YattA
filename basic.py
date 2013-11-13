@@ -1,11 +1,11 @@
 import sys
 sys.path.append("ext")
 import os
-import readline
+#import readline
 from util import *
 from cond import cond
 
-os.system('clear')
+cls()
 
 opt = []
 
